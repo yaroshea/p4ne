@@ -13,7 +13,7 @@ list_y = list(map(getvalue, sheet['C'][1:]))
 list_z = list(map(getvalue, sheet['D'][1:]))
 
 
-
-pyplot.plot(list_x, list_y, label='Метка')
-pyplot.plot(list_x, list_z, label='Метка')
+pyplot.plot(list_x, list_y, label='Метка1')
+pyplot.plot(list_x, list_z, label='Метка2')
+pyplot.legend()
 pyplot.show()
